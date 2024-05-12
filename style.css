@@ -109,7 +109,7 @@ ul a{
 }
 .info-card{
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: .5fr 1fr;
     gap: 1.5rem;
 }
 .info-card h1{
